@@ -19,12 +19,12 @@ const Sidebar = () => {
         This is Side Bar
         <div>
           <button onClick={onBtn} className="bg-red-500 p-4">
-            X
+            Close
           </button>
         </div>
       </div>
-      <div>
-        <button onClick={onBtn} className="bg-yellow-500 p-5 border-2 border-black">
+      <div className="flex justify-center items-center h-screen">
+        <button onClick={onBtn} className="bg-[#bcff02] p-5 border-2 shadow-2xl border-black">
           Open Side Bar
         </button>
       </div>
