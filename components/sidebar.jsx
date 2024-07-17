@@ -18,13 +18,13 @@ const Sidebar = () => {
       >
         This is Side Bar
         <div>
-          <button onClick={onBtn} className="bg-red-500 p-5">
-            Close
+          <button onClick={onBtn} className="bg-red-500 p-4">
+            X
           </button>
         </div>
       </div>
       <div>
-        <button onClick={onBtn} className="bg-yellow-500 p-5">
+        <button onClick={onBtn} className="bg-yellow-500 p-5 border-2 border-black">
           Open Side Bar
         </button>
       </div>
